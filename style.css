@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(244, 208, 78, 1) ;
+}
+.cadr-header{
+    display: flex;
+    justify-content: center;
+   margin-top: 100px;
+    
+}
+.card {
+    width: 384px;
+    height:522px;
+    padding: 20px;
+    border-radius: 20px 10px ;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: white;
+  
+
+}
+
+.card-image {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.btn {
+    width: 58px;
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+    width: 82px;
+    height: 29px;
+    padding: 5px 15px 5px  15px;
+    gap: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(244, 208, 78, 1) ;
+    border:none;
+
+}
+
+.card-title {
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.card-desc {
+    width: 306px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(107, 107, 107, 1);;
+
+}
+.card-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.card-contact_text {
+    color: rgba(17, 17, 17, 1);
+}
